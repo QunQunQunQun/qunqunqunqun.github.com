@@ -1,0 +1,122 @@
+插入在		</div><!-- end #content -->
+		
+		
+	</div><!-- end #wrap -->之间
+
+
+
+CODE如下：
+————————————————————————————————————————————————————————————
+
+<div id="footer">
+		
+		<!-- /// FOOTER     ///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			 <div class="row">
+            	<div class="span12">
+                	
+					<div class="cv-contact">
+    	
+						<div class="cv-contact-toggle">
+							
+							<a href="#">
+								<i class="fa fa-envelope"></i>
+							</a>
+							
+						</div><!-- end .cv-contact-toggle -->
+						
+						 <div class="cv-section-title">
+                        
+							<h2>Contact me</h2>
+							
+						</div><!-- end .cv-section-title -->
+						
+						<p>I'm a UX designer based in Shanghai with above 12+ years working experience. Wanna talk? Just phone me 18721865152.</p>
+						
+						<form class="fixed" id="contact-form"  name="contact-form" method="post" action="http://www.bitpublimedia.ro/themeforest/resume-v2/_layout/php/send.php"> 
+							<fieldset>
+								
+								<div id="formstatus"></div>
+										
+								<input id="name" type="text" name="name" value="" placeholder="name">
+							
+								<input id="email" type="text" name="email" value="" placeholder="address">
+								
+								<input id="subject" type="text" name="subject" value="" placeholder="subject">
+								
+								<textarea id="message" name="message" rows="50" cols="25" placeholder="message"></textarea>
+								
+								<input id="submit" type="submit" name="submit" value="Send!">
+								   
+							</fieldset>
+						</form>
+						
+					</div><!-- end .cv-contact -->
+			
+                    <h4 class="copyright">&copy; 2015 Zhang Qun. <span class="hidden-phone">All rights reserved.</span></h4>
+                    
+                </div><!-- end .span12 -->
+            </div><!-- end .row -->
+            
+		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+		</div><!-- end #footer -->
+
+
+
+
+
+
+倒数第二行：引入了很多无用的JS
+
+ <!-- /// jQuery ////////  -->
+	<script src="styles/js/jquery-2.1.0.min.js"></script>
+  
+    <!-- /// ViewPort ////////  -->
+	<script src="styles/js/viewport/jquery.viewport.js"></script>
+    
+    <!-- /// Easing ////////  -->
+	<script src="styles/js/easing/jquery.easing.1.3.js"></script>
+
+    <!-- /// SimplePlaceholder ////////  -->
+	<script src="styles/js/simpleplaceholder/jquery.simpleplaceholder.js"></script>
+
+    <!-- /// Fitvids ////////  -->
+    <script src="styles/js/fitvids/jquery.fitvids.js"></script>
+	
+    <!-- /// bxSlider ////////  -->
+	<script src="styles/js/bxslider/jquery.bxslider.min.js"></script>
+    
+   	<!-- /// Magnific Popup ////////  -->
+	<script src="styles/js/magnificpopup/jquery.magnific-popup.min.js"></script>
+    
+    <!-- /// Isotope ////////  -->
+	<script src="styles/js/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="styles/js/isotope/isotope.pkgd.min.js"></script>
+    
+    <!-- /// Parallax ////////  -->
+	<script src="_layout/js/parallax/jquery.parallax.min.js"></script>	
+	
+	<!-- /// EasyPieChart ////////  -->
+	<script src="_layout/js/easypiechart/jquery.easypiechart.min.js"></script>
+    
+    <!-- /// Easy Tabs ////////  -->
+    <script src="styles/js/easytabs/jquery.easytabs.min.js"></script>	
+    
+    <!-- /// Form validate ////////  -->
+    <script src="styles/js/jqueryvalidate/jquery.validate.min.js"></script>
+    
+	<!-- /// Form submit ////////  -->
+    <script src="styles/js/jqueryform/jquery.form.min.js"></script>
+    
+    <!-- /// gMap ////////  -->
+	<!--<script src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
+	<script src="styles/js/gmap/jquery.gmap.min.js"></script>
+
+	<div class="switcher"></div>
+	<script src="styles/js/switcher/jquery_cookie.js"></script>
+	<script src="styles/js/switcher/switcher.js"></script>
+	
+	<!-- /// Custom JS ////////  -->
+	<script src="styles/js/plugins.js"></script>	
+	<script src="styles/js/scripts.js"></script>
